@@ -15,7 +15,7 @@ def choose_port():
         print("Arduino not found. Check USB cable.")
         return None
 
-    print("\nDostupni COM portovi:")
+    print("\nAvailable COM Ports:")
     for i, port in enumerate(ports, 1):
         print(f"{i}. {port.device} - {port.description}")
 
